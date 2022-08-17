@@ -7,7 +7,7 @@
       "regexp": "Project Example [0-9]{6}"
     },
     "description": { "loremSentences": { "minLength": 10, "maxLength": 60 } },
-    "hasMany": "Component"
+    "components": { "hasMany": "Component" }
   },
   "Component": {
     "identifier": {
