@@ -1,14 +1,7 @@
 {
   "Project": {
     "identifier": { 
-      "string" : [
-        "http://example.com/project/1", 
-        "http://example.com/project/2", 
-        "http://example.com/project/3", 
-        "http://example.com/project/4", 
-        "http://example.com/project/5", 
-        "http://example.com/project/6"
-        ] 
+      "regexp": "https://example.com/oslc/project/[0-9]{6}"
       },
     "name": { "string": [
       "Project Example 1",
