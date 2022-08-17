@@ -1,7 +1,23 @@
 {
   "Project": {
-    "identifier": "http://example.com/project/1",
-    "name": "Project Example 1",
+    "identifier": { 
+      "string" : [
+        "http://example.com/project/1", 
+        "http://example.com/project/2", 
+        "http://example.com/project/3", 
+        "http://example.com/project/4", 
+        "http://example.com/project/5", 
+        "http://example.com/project/6"
+        ] 
+      },
+    "name": { "string": [
+      "Project Example 1",
+      "Project Example 2",
+      "Project Example 3",
+      "Project Example 4",
+      "Project Example 5",
+      "Project Example 6"
+    ]},
     "description": { "string": {} }
   }
 }
