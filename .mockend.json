@@ -6,7 +6,15 @@
     "name": {
       "regexp": "Project Example [0-9]{6}"
     },
-    "description": { "loremSentences": { "minLength": 10, "maxLength": 30 } }
-    
+    "description": { "loremSentences": { "minLength": 10, "maxLength": 60 } },
+    "hasMany": "Component"
+  },
+  "Component": {
+    "identifier": {
+      "regexp": "https://example.com/oslc/project/[0-9]{6}/component/[0-9]{6}"
+    },
+    "name": {
+      "regexp": "Component [0-9]{6}"
+    }
   }
 }
