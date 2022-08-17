@@ -1,5 +1,7 @@
 {
-  "User": {
-    "title": { "string": {} }
+  "Project": {
+    "identifier": "http://example.com/project/1",
+    "name": "Project Example 1",
+    "description": { "string": {} }
   }
 }
